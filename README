@@ -1,12 +1,11 @@
-
-We have implemented various CNN models to do the face recognition task. 
+Have implemented various CNN models to do the face recognition task. 
 All the models are stored in the mmodels.py file. One can instantiate a
 model by simply calling the function name in the main.py file. For each 
 model we have defined a separate log directory, tensorboard handle and 
 callbacks. One can view the computational graph corresponding to model by 
 running the run_tensorboard.sh file. The different models implemented are:
 
-4a. Simple Model
+Simple Model
 This is a very simple CNN model implemented in Keras. The model architecture 
 layers looks like this in sequence
 Convolution, Convolution, Pool, Dropout, Flatten, Dense, Dropout, Dense
@@ -18,7 +17,7 @@ layer a sigmoid function is used. Max pooling type of pooling has been with a
 One can explore the structure in more detail by looking into tensorboard 
 generated graphs.	
 
-4b. Alexnet Model
+Alexnet Model
 The alexnet  modelhas been implemented in Keras. The model architecture 
 layers looks like this in sequence
 Convolution, Convolution, Pool, Convolution, Convolution, Pool, Convolution, 
@@ -32,7 +31,7 @@ layer a sigmoid function is used. Max pooling type of pooling has been with a
 One can explore the structure in more detail by looking into tensorboard 
 generated graphs.	
 
-4a. Lenet Model
+Lenet Model
 This is a Lenet model implemented in Keras. The model architecture 
 layers looks like this in sequence
 Convolution, Pool, Convolution, Pool, Flatten, Dense, Dense
